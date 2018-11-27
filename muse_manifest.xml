@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="provapisellogo.com" resolutions="1x" timestamp="1543331578497">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="provapisellogo.com" resolutions="1x" timestamp="1543334790194">
   <folder name="fonts">
     <file name="source-sans-pro-v11-latin-600.woff" crc="143776421"/>
     <file name="source-sans-pro-v11-latin-600.eot" crc="260264388"/>
@@ -6,14 +6,14 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="product-design.css" crc="164072941" ref="product-design"/>
+    <file name="product-design.css" crc="3834280591" ref="product-design"/>
     <file name="about-me.css" crc="3900895723" ref="about-me"/>
-    <file name="photography.css" crc="164072941" ref="photography"/>
-    <file name="graphic-design.css" crc="164072941" ref="graphic-design"/>
+    <file name="photography.css" crc="3834280591" ref="photography"/>
+    <file name="graphic-design.css" crc="3834280591" ref="graphic-design"/>
     <file name="contacts.css" crc="218704112" ref="contacts"/>
-    <file name="3d-modelling.css" crc="164072941" ref="3d-modelling"/>
-    <file name="index.css" crc="3926839404" ref="index"/>
-    <file name="nomq_index.css" crc="370423115" ref="index"/>
+    <file name="3d-modelling.css" crc="3834280591" ref="3d-modelling"/>
+    <file name="index.css" crc="377601371" ref="index"/>
+    <file name="nomq_index.css" crc="111727950" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about-me:contacts:photography:product-design:graphic-design:3d-modelling"/>
@@ -21,22 +21,23 @@
     <file name="whatinput.js" crc="86476730" ref="index:about-me:contacts:photography:product-design:graphic-design:3d-modelling"/>
     <file name="museconfig.js" crc="310584261" ref="index:about-me:contacts:photography:product-design:graphic-design:3d-modelling"/>
     <file name="jquery.watch.js" crc="51536988" ref="index:about-me:contacts:photography:product-design:graphic-design:3d-modelling"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
     <file name="require.js" crc="7928878" ref="index:about-me:contacts:photography:product-design:graphic-design:3d-modelling"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="pisellogo.svg" crc="3899688892" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="pisellogo_poster_.png" crc="452934831" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="285745725" seo="true" mt="1543331573791" redirect="true"/>
-  <file name="about-me.html" crc="3983937609" seo="true" mt="1543330290333" redirect="true"/>
-  <file name="contacts.html" crc="3895707213" seo="true" mt="1543330300871" redirect="true"/>
-  <file name="photography.html" crc="466418703" seo="true" mt="1543323791796" redirect="false"/>
-  <file name="product-design.html" crc="51252985" seo="true" mt="1543323799144" redirect="false"/>
-  <file name="graphic-design.html" crc="357152822" seo="true" mt="1543323805835" redirect="false"/>
-  <file name="3d-modelling.html" crc="197261657" seo="true" mt="1543323819325" redirect="false"/>
+  <file name="index.html" crc="4109002752" seo="true" mt="1543334774837" redirect="true"/>
+  <file name="about-me.html" crc="3983937609" seo="true" mt="1543334245214" redirect="true"/>
+  <file name="contacts.html" crc="3895707213" seo="true" mt="1543334245214" redirect="true"/>
+  <file name="photography.html" crc="4131561044" seo="true" mt="1543334245214" redirect="false"/>
+  <file name="product-design.html" crc="109317007" seo="true" mt="1543334245214" redirect="false"/>
+  <file name="graphic-design.html" crc="122262296" seo="true" mt="1543334245214" redirect="false"/>
+  <file name="3d-modelling.html" crc="274360208" seo="true" mt="1543334245214" redirect="false"/>
 </manifest>
