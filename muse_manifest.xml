@@ -1,14 +1,19 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="provapisellogo.com" resolutions="1x" timestamp="1543329024048">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="provapisellogo.com" resolutions="1x" timestamp="1543331578497">
+  <folder name="fonts">
+    <file name="source-sans-pro-v11-latin-600.woff" crc="143776421"/>
+    <file name="source-sans-pro-v11-latin-600.eot" crc="260264388"/>
+    <file name="source-sans-pro-v11-latin-600.svg" crc="4070769627"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="product-design.css" crc="164072941" ref="product-design"/>
-    <file name="about-me.css" crc="4124025779" ref="about-me"/>
+    <file name="about-me.css" crc="3900895723" ref="about-me"/>
     <file name="photography.css" crc="164072941" ref="photography"/>
     <file name="graphic-design.css" crc="164072941" ref="graphic-design"/>
-    <file name="contacts.css" crc="4049247919" ref="contacts"/>
+    <file name="contacts.css" crc="218704112" ref="contacts"/>
     <file name="3d-modelling.css" crc="164072941" ref="3d-modelling"/>
-    <file name="index.css" crc="4207269880" ref="index"/>
-    <file name="nomq_index.css" crc="204151231" ref="index"/>
+    <file name="index.css" crc="3926839404" ref="index"/>
+    <file name="nomq_index.css" crc="370423115" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about-me:contacts:photography:product-design:graphic-design:3d-modelling"/>
@@ -20,44 +25,16 @@
     <file name="require.js" crc="7928878" ref="index:about-me:contacts:photography:product-design:graphic-design:3d-modelling"/>
   </folder>
   <folder name="images">
-    <file name="u173-4.png" crc="4221586052" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="u432_states-r.png" crc="4033872361" ref="index"/>
-    <file name="u167-4.png" crc="139909307" ref="index"/>
-    <file name="u398_states-r.png" crc="4007354638" ref="index"/>
     <file name="pisellogo.svg" crc="3899688892" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="pisellogo_poster_.png" crc="452934831" ref="index"/>
-    <file name="u548-4.png" crc="56052334" ref="index"/>
-    <file name="u542_states-r.png" crc="172666577" ref="index"/>
-    <file name="u531-4.png" crc="353958810" ref="index"/>
-    <file name="u526_states-r.png" crc="4015078505" ref="index"/>
-    <file name="u188-4.png" crc="4261565133" ref="index"/>
-    <file name="u438_states-r.png" crc="4262663981" ref="index"/>
-    <file name="u194.png" crc="4030931593" ref="index"/>
-    <file name="u194-r.png" crc="4030931593" ref="index"/>
-    <file name="u444_states-r.png" crc="4196505755" ref="index"/>
-    <file name="u173-42.png" crc="3825890175" ref="index"/>
-    <file name="u167-42.png" crc="446633082" ref="index"/>
-    <file name="u398_states-r2.png" crc="3960118432" ref="index"/>
-    <file name="u432_states-r2.png" crc="4147125968" ref="index"/>
-    <file name="u438_states-r2.png" crc="3875718662" ref="index"/>
-    <file name="u444_states-r2.png" crc="3943203720" ref="index"/>
-    <file name="u526_states-r2.png" crc="16418923" ref="index"/>
-    <file name="u542_states-r2.png" crc="3935192637" ref="index"/>
-    <file name="u188-42.png" crc="446633082" ref="index"/>
-    <file name="u531-42.png" crc="3761319602" ref="index"/>
-    <file name="u548-42.png" crc="3782400737" ref="index"/>
-    <file name="u1942.png" crc="3758754954" ref="index"/>
-    <file name="u194-r2.png" crc="3758754954" ref="index"/>
-    <file name="u713-4.png" crc="118295148" ref="about-me"/>
-    <file name="u724-4.png" crc="4013891505" ref="contacts"/>
   </folder>
-  <file name="index.html" crc="3762478004" seo="true" mt="1543329022676" redirect="true"/>
-  <file name="about-me.html" crc="186762036" seo="true" mt="1543328946448" redirect="true"/>
-  <file name="contacts.html" crc="4227874238" seo="true" mt="1543328992007" redirect="true"/>
+  <file name="index.html" crc="285745725" seo="true" mt="1543331573791" redirect="true"/>
+  <file name="about-me.html" crc="3983937609" seo="true" mt="1543330290333" redirect="true"/>
+  <file name="contacts.html" crc="3895707213" seo="true" mt="1543330300871" redirect="true"/>
   <file name="photography.html" crc="466418703" seo="true" mt="1543323791796" redirect="false"/>
   <file name="product-design.html" crc="51252985" seo="true" mt="1543323799144" redirect="false"/>
   <file name="graphic-design.html" crc="357152822" seo="true" mt="1543323805835" redirect="false"/>
