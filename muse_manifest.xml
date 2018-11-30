@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="provapisellogo.com" resolutions="1x" timestamp="1543579100938">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="provapisellogo.com" resolutions="1x" timestamp="1543585495949">
   <folder name="fonts">
     <file name="source-sans-pro-v11-latin-600.woff" crc="143776421"/>
     <file name="source-sans-pro-v11-latin-600.eot" crc="260264388"/>
@@ -20,15 +20,17 @@
     <file name="nomq_about.css" crc="128486355" ref="about"/>
     <file name="nomq_contacts.css" crc="3842241179" ref="contacts"/>
     <file name="nomq_graphic-design.css" crc="413712216" ref="graphic-design"/>
+    <file name="product-design.css" crc="225103108" ref="product-design"/>
+    <file name="nomq_product-design.css" crc="269865639" ref="product-design"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contacts:graphic-design:about"/>
-    <file name="museutils.js" crc="340535759" ref="index:contacts:graphic-design:about"/>
-    <file name="whatinput.js" crc="86476730" ref="index:contacts:graphic-design:about"/>
-    <file name="museconfig.js" crc="310584261" ref="index:contacts:graphic-design:about"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:contacts:graphic-design:about"/>
-    <file name="require.js" crc="7928878" ref="index:contacts:graphic-design:about"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index:about:contacts:graphic-design"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contacts:graphic-design:about:product-design"/>
+    <file name="museutils.js" crc="340535759" ref="index:contacts:graphic-design:about:product-design"/>
+    <file name="whatinput.js" crc="86476730" ref="index:contacts:graphic-design:about:product-design"/>
+    <file name="museconfig.js" crc="310584261" ref="index:contacts:graphic-design:about:product-design"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:contacts:graphic-design:about:product-design"/>
+    <file name="require.js" crc="7928878" ref="index:contacts:graphic-design:about:product-design"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:about:contacts:graphic-design:product-design"/>
     <file name="webpro.js" crc="4059564322" ref="contacts"/>
     <file name="form_check.php" crc="4020933626" ref="contacts"/>
     <file name="form_throttle.php" crc="4259590256" ref="contacts"/>
@@ -45,7 +47,7 @@
       <caption webpage="about" alt=""/>
     </file>
     <file name="pisellogo_poster_.png" crc="452934831" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:about:contacts:graphic-design"/>
+    <file name="blank.gif" crc="4208392903" ref="index:about:contacts:graphic-design:product-design"/>
     <file name="instagram_simple_icon.svg" crc="408345" seo="true" ref="contacts">
       <caption webpage="contacts" alt=""/>
       <caption webpage="contacts" alt=""/>
@@ -88,9 +90,19 @@
     <file name="bit-05-crop-u26953.png" crc="424426699" seo="true" ref="graphic-design">
       <caption webpage="graphic-design" alt=""/>
     </file>
+    <file name="fotoritoccate (17 of 54)-crop-u3087.jpg" crc="440220391" seo="true" ref="product-design">
+      <caption webpage="product-design" alt=""/>
+    </file>
+    <file name="fotoritoccate (17 of 54)-crop-u30872.jpg" crc="194604025" seo="true" ref="product-design">
+      <caption webpage="product-design" alt=""/>
+    </file>
+    <file name="fotoritoccate (17 of 54)-crop-u30873.jpg" crc="4266619135" seo="true" ref="product-design">
+      <caption webpage="product-design" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4006423853" seo="true" mt="1543578670373" redirect="true"/>
+  <file name="index.html" crc="4136527683" seo="true" mt="1543585448856" redirect="true"/>
   <file name="contacts.html" crc="3813893180" seo="true" mt="1543576831277" redirect="true"/>
   <file name="graphic-design.html" crc="4268118697" seo="true" mt="1543579029274" redirect="true"/>
   <file name="about.html" crc="506322477" seo="true" mt="1543576358532" redirect="true"/>
+  <file name="product-design.html" crc="4290803069" seo="true" mt="1543585221923" redirect="true"/>
 </manifest>

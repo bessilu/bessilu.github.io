@@ -69,4 +69,19 @@
       <image:loc>http://provapisellogo.com/images/pisellogo.svg</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>http://provapisellogo.com/product-design.html</loc>
+    <lastmod>2018-11-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://provapisellogo.com/images/fotoritoccate%20(17%20of%2054)-crop-u3087.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://provapisellogo.com/images/fotoritoccate%20(17%20of%2054)-crop-u30872.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://provapisellogo.com/images/fotoritoccate%20(17%20of%2054)-crop-u30873.jpg</image:loc>
+    </image:image>
+  </url>
 </urlset>
