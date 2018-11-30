@@ -11,13 +11,17 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "contacts.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "webpro.js", "contacts.css"], "outOfDate":[]};
 </script>
   
   <title>Contacts</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/contacts.css?crc=218704112" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=348171781"/>
+  <link rel="stylesheet" type="text/css" href="css/contacts.css?crc=4138683378" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_contacts.css?crc=4224405171" id="nomq_pagesheet"/>
+  <![endif]-->
     <!--/*
 
 */
@@ -25,11 +29,135 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="clearfix colelem" id="u724-4"><!-- content -->
-    <p>CONTACTS</p>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="901"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem shared_content" id="pu2003-4" data-content-guid="pu2003-4_content"><!-- group -->
+     <a class="nonblock nontext clearfix grpelem" id="u2003-4" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>B</p></a>
+     <a class="nonblock nontext clearfix grpelem" id="u2004-5" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content --><p>B<span id="u2004-2">ACK</span></p></a>
+    </div>
+    <form class="form-grp clearfix grpelem" id="widgetu1735" method="post" enctype="multipart/form-data" action="scripts/form-u1735.php" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+     <div class="fld-grp clearfix colelem" id="widgetu1742" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1745-4"><!-- content --><div id="u1745-3"><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu1742_input" name="custom_U1742" tabindex="1" data-content-guid="widgetu1742_input_content"/><label class="wrapped-input fld-prompt" id="widgetu1742_prompt" for="widgetu1742_input"><span class="actAsPara shared_content" data-content-guid="widgetu1742_prompt_0_content">Name*</span></label></div></span>
+     </div>
+     <div class="fld-grp clearfix colelem" id="widgetu1746" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1747-4"><!-- content --><div id="u1747-3"><input class="wrapped-input shared_content" type="email" spellcheck="false" id="widgetu1746_input" name="Email" tabindex="2" data-content-guid="widgetu1746_input_content"/><label class="wrapped-input fld-prompt" id="widgetu1746_prompt" for="widgetu1746_input"><span class="actAsPara shared_content" data-content-guid="widgetu1746_prompt_0_content">Email*</span></label></div></span>
+     </div>
+     <div class="fld-grp clearfix colelem" id="widgetu1736" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx"><!-- none box -->
+      <span class="fld-textarea actAsDiv clearfix grpelem" id="u1739-4"><!-- content --><div id="u1739-3"><textarea class="wrapped-input shared_content" id="widgetu1736_input" name="custom_U1736" tabindex="3" data-content-guid="widgetu1736_input_content"></textarea><label class="wrapped-input fld-prompt" id="widgetu1736_prompt" for="widgetu1736_input"><span class="actAsPara shared_content" data-content-guid="widgetu1736_prompt_0_content">Write me anything*</span></label></div></span>
+     </div>
+     <div class="clearfix colelem" id="pu1750-4"><!-- group -->
+      <div class="clearfix grpelem" id="u1750-4"><!-- content -->
+       <p class="shared_content" data-content-guid="u1750-4_0_content">Submitting Form...</p>
+      </div>
+      <div class="clearfix grpelem" id="u1740-4"><!-- content -->
+       <p class="shared_content" data-content-guid="u1740-4_0_content">The server encountered an error.</p>
+      </div>
+      <div class="clearfix grpelem" id="u1751-4"><!-- content -->
+       <p class="shared_content" data-content-guid="u1751-4_0_content">Form received.</p>
+      </div>
+      <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u1741-4" type="submit" value="Send" tabindex="4"><!-- content -->
+       <div style="margin-top:-15px;height:15px;" class="shared_content" data-content-guid="u1741-4_0_content">
+        <p>Send</p>
+       </div>
+      </button>
+     </div>
+    </form>
+    <div class="bodyextra clearfix grpelem shared_content" id="u1924-16" data-content-guid="u1924-16_content"><!-- content -->
+     <p>Luca Bessi</p>
+     <p>&nbsp;</p>
+     <p>Via Zara 2b,</p>
+     <p>Bozen 39100, BZ</p>
+     <p>Italy</p>
+     <p>&nbsp;</p>
+     <p>lbessi@unibz.it</p>
+     <p>+39 3391062705</p>
+    </div>
+    <div class="clearfix grpelem" id="pu1725-4"><!-- column -->
+     <a class="nonblock nontext MuseLinkActive clearfix colelem shared_content" id="u1725-4" href="contacts.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u1725-4_content"><!-- content --><p>CONTACTS</p></a>
+     <div class="size_fluid_width colelem shared_content" id="u1931" data-pintopage="page_fluidx" data-sizePolicy="fluidWidth" data-content-guid="u1931_content"><!-- custom html -->
+      
+<iframe class="actAsDiv" style="width:100%;height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;q=Via%20Zara%202b%2C%20Bolzano&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="588" data-content-above-spacer="588" data-content-below-spacer="311" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
-   <div class="verticalspacer" data-offset-top="228" data-content-above-spacer="228" data-content-below-spacer="852" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <div class="breakpoint" id="bp_900" data-min-width="455" data-max-width="900"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <form class="form-grp clearfix grpelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u1735.php" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu1735"><!-- none box -->
+     <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu1742"><!-- none box -->
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u1745-4"><!-- content --><div class="temp_no_id" data-orig-id="u1745-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu1742_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu1742_input" data-orig-id="widgetu1742_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu1742_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+     </div>
+     <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu1746"><!-- none box -->
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u1747-4"><!-- content --><div class="temp_no_id" data-orig-id="u1747-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu1746_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu1746_input" data-orig-id="widgetu1746_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu1746_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+     </div>
+     <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu1736"><!-- none box -->
+      <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u1739-4"><!-- content --><div class="temp_no_id" data-orig-id="u1739-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu1736_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu1736_input" data-orig-id="widgetu1736_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu1736_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+     </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu1750-4"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u1750-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u1750-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u1740-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u1740-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u1751-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u1751-4_0_content"><!-- placeholder node --></span>
+      </div>
+      <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="Send" tabindex="8" data-orig-id="u1741-4"><!-- content -->
+       <span class="placeholder" data-placeholder-for="u1741-4_0_content"><!-- placeholder node --></span>
+      </button>
+     </div>
+    </form>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu1725-4"><!-- column -->
+     <span class="nonblock nontext MuseLinkActive clearfix colelem placeholder" data-placeholder-for="u1725-4_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="pu2003-4_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu1924-16"><!-- group -->
+      <span class="bodyextra clearfix grpelem placeholder" data-placeholder-for="u1924-16_content"><!-- placeholder node --></span>
+      <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u1931_content"><!-- placeholder node --></span>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="713" data-content-above-spacer="713" data-content-below-spacer="186" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_454" data-max-width="454"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <span class="nonblock nontext MuseLinkActive clearfix colelem placeholder" data-placeholder-for="u1725-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="pu2003-4_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem" id="pwidgetu1735"><!-- group -->
+     <form class="form-grp clearfix grpelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u1735.php" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu1735"><!-- none box -->
+      <div class="position_content" id="widgetu1735_position_content">
+       <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu1742"><!-- none box -->
+        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u1745-4"><!-- content --><div class="temp_no_id" data-orig-id="u1745-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu1742_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu1742_input" data-orig-id="widgetu1742_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu1742_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+       </div>
+       <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu1746"><!-- none box -->
+        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u1747-4"><!-- content --><div class="temp_no_id" data-orig-id="u1747-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu1746_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu1746_input" data-orig-id="widgetu1746_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu1746_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+       </div>
+       <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu1736"><!-- none box -->
+        <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u1739-4"><!-- content --><div class="temp_no_id" data-orig-id="u1739-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu1736_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu1736_input" data-orig-id="widgetu1736_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu1736_prompt_0_content"><!-- placeholder node --></span></label></div></span>
+       </div>
+       <div class="clearfix colelem temp_no_id" data-orig-id="pu1750-4"><!-- group -->
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u1750-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u1750-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u1740-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u1740-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u1751-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u1751-4_0_content"><!-- placeholder node --></span>
+        </div>
+        <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="Send" tabindex="12" data-orig-id="u1741-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u1741-4_0_content"><!-- placeholder node --></span>
+        </button>
+       </div>
+      </div>
+     </form>
+     <span class="bodyextra clearfix grpelem placeholder" data-placeholder-for="u1924-16_content"><!-- placeholder node --></span>
+     <span class="size_fluid_width grpelem placeholder" data-placeholder-for="u1931_content"><!-- placeholder node --></span>
+    </div>
+    <div class="verticalspacer" data-offset-top="713" data-content-above-spacer="713" data-content-below-spacer="186" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   </div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -42,13 +170,14 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","jquery.watch","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#widgetu1735', ['#bp_infinity', '#bp_900', '#bp_454'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu1735 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://provapisellogo.com/index.html</loc>
-    <lastmod>2018-11-27</lastmod>
+    <lastmod>2018-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -10,14 +10,8 @@
     </image:image>
   </url>
   <url>
-    <loc>http://provapisellogo.com/about-me.html</loc>
-    <lastmod>2018-11-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://provapisellogo.com/contacts.html</loc>
-    <lastmod>2018-11-27</lastmod>
+    <lastmod>2018-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -44,5 +38,14 @@
     <lastmod>2018-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://provapisellogo.com/about.html</loc>
+    <lastmod>2018-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://provapisellogo.com/images/pisellogo.svg</image:loc>
+    </image:image>
   </url>
 </urlset>
