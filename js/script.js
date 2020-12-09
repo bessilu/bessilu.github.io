@@ -128,72 +128,10 @@ $(document).ready(function () {
 // tabs buttons script!!!!!!!!!!!!!!
 
 $(document).ready(function () {
-    $("#ability_button").click(function () {
-        $(".tab").removeClass("off").addClass("off");
-        $("#covers_tab").removeClass("off");
-        $(".cover_card").removeClass("off");
-        $(".cover_label").removeClass("off").addClass("off");
-        $(".menu_button").removeClass("active");
-        $("#ability_button").addClass("active");
-        document.title = 'Handy Hands';
-    });
-
-    $("#project_button").click(function () {
-        $(".tab").removeClass("off").addClass("off");
-        $("#project_tab").removeClass("off");
-        $(".menu_button").removeClass("active");
-        $("#project_button").addClass("active");
-        document.title = 'Handy Hands / Progetto';
-    });
-
-    $("#story_button").click(function () {
-        $(".tab").removeClass("off").addClass("off");
-        $("#story_tab").removeClass("off");
-        $(".menu_button").removeClass("active");
-        $("#story_button").addClass("active");
-        document.title = 'Handy Hands / Storia';
-    });
-
-    $("#subscribe_button").click(function () {
-        $(".tab").removeClass("off").addClass("off");
-        $("#subscribe_tab").removeClass("off");
-        $(".menu_button").removeClass("active");
-        $("#subscribe_button").addClass("active");
-        document.title = 'Handy Hands / Iscriviti';
-    });
 
 
-    $("#contacts_button").click(function () {
-        $(".menu_button").removeClass("active");
-        $(".tab").removeClass("off").addClass("off");
-        $("#contacts_tab").removeClass("off");
-        document.title = 'Handy Hands / Contatti';
-    });
-
-    $("#disclaimer_button").click(function () {
-        $(".menu_button").removeClass("active");
-        $(".tab").removeClass("off").addClass("off");
-        $("#disclaimer_tab").removeClass("off");
-        document.title = 'Handy Hands / Disclaimer';
-    });
-
-    $("#supporters_button").click(function () {
-        $(".menu_button").removeClass("active");
-        $(".tab").removeClass("off").addClass("off");
-        $("#supporters_tab").removeClass("off");
-        document.title = 'Handy Hands / Sostenitori';
-    });
-
-    $("#credits_button").click(function () {
-        $(".menu_button").removeClass("active");
-        $(".tab").removeClass("off").addClass("off");
-        $("#credits_tab").removeClass("off");
-        document.title = 'Handy Hands / Credits';
-    });
 
 
-    
-    
 });
 
 
