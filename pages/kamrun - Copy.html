@@ -1,0 +1,47 @@
+<div id="left_c">
+
+    <div id="carousel">
+        <div class="slide" style="background-image: url(media/artigiani/KAMRUN/cover.jpg)"></div>
+        <div class="slide hide" style="background-image: url(media/artigiani/KAMRUN/01.jpg)"></div>
+    </div>
+
+    <div id="slider_buttons">
+        <div id="previous" class="slider_button">←</div>
+        <div id="next" class="slider_button">→</div>
+    </div>
+    <script>
+        $(document).ready(function() {
+
+            $("#number a").click(function() {
+                $(this).text(function(i, v) {
+                    return v === '→ Contatta' ? '→ 328 6627296' : '→ Contatta'
+                })
+            });
+        });
+    </script>
+    <h2 id=""><a>→ CV</a></h2>
+    <h2 id="number"><a>→ Contatta</a></h2>
+    <h2 id="video_trigger">→ video</h2>
+</div>
+
+
+
+
+<div id="right_c">
+    <h1>Kamrun Nahar</h1>
+    <h2>Bangladesh > Bolzano</h2>
+    <h2>Cuoca, sarta</h2>
+    <div id="bio">
+        <h2 class="bio_title">LA MIA STORIA</h2>
+        <p class="bio_txt">Magnatem que sim sim quis doloritaturi aute cor sequi con cullenimus re ant que volorest facepres suntum re prestio dolorest facipientium num facil expliquodi corum que comnihiciis modio testrum, utem unt pel ipsapit, voluptat quo to blatibu stinum assim ilitet essectionsed quunt veriore. ndipienti unt ut vollenda qui te nes elitecest aligendenim fugiandis demolut aditatureUlluptatur sum facidenis illorum repelestiur repta conempe.</p>
+        <h2 class="bio_title">il mio lavoro</h2>
+        <p class="bio_txt">Dfaus oporterrae audellessimo hoste nox nique nore iam in supio, constidit, quit facies er iam Romner alis? Opicupi ciendamquam ocae milinaturi faceper los ne facientia dio et egeratio hiliam stat Catem omperbi simantu isseri perei perentra, nulerris re prisse noc, Cupicaedium us sus bon dissolto ure cre fures pri imilica etius. Me audepon sinesse nationsultus publissCupere, pri, publinume tessoltiem. Hebunt vis. Igit L. Sena, corum sul hostra.</p>
+    </div>
+</div>
+
+<div id="video_canvas" class="off">
+    <video id="video_profile" controls>
+        <source src="media/artigiani/KAMRUN/video_sample.mp4" type="video/mp4">
+        Il tuo browser non supporta questo player.
+    </video>
+</div>

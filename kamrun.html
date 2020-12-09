@@ -1,0 +1,425 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="media/favicon.ico" rel="icon" type="image/x-icon" />
+    <title>Handy Hands / Kamrun</title>
+    <meta name="description" content="Description">
+    <meta name="author" content="Author">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div id="container">
+
+
+        <!-------- first column ------->
+
+        <div id="viewport_column" class="column">
+            <div id="menu_box">
+                <h1 id="ability_button" class="menu_button active">Abilità</h1>
+                <h1 id="project_button" class="menu_button">Progetto</h1>
+                <h1 id="story_button" class="menu_button">Storia</h1>
+                <h1 id="subscribe_button" class="menu_button">Iscriviti</h1>
+            </div>
+
+
+
+
+
+
+
+            <div id="viewport_box">
+
+
+                <!-------- profile tab ------->
+
+                <div id="profile_tab" class="tab">
+                    <div id="left_c">
+
+                        <div id="carousel">
+                            <div class="slide" style="background-image: url(media/artigiani/KAMRUN/cover.jpg)"></div>
+                            <div class="slide hide" style="background-image: url(media/artigiani/KAMRUN/01.jpg)"></div>
+                        </div>
+
+                        <div id="slider_buttons">
+                            <div id="previous" class="slider_button">←</div>
+                            <div id="next" class="slider_button">→</div>
+                        </div>
+                        <script>
+                            $(document).ready(function() {
+
+                                $("#number a").click(function() {
+                                    $(this).text(function(i, v) {
+                                        return v === '→ Contatta' ? '→ 328 6627296' : '→ Contatta'
+                                    })
+                                });
+                            });
+                        </script>
+                        <h2 id=""><a>→ CV</a></h2>
+                        <h2 id="number"><a>→ Contatta</a></h2>
+                        <h2 id="video_trigger">→ video</h2>
+                    </div>
+
+
+
+
+                    <div id="right_c">
+                        <h1>Kamrun Nahar</h1>
+                        <h2>Bangladesh > Bolzano</h2>
+                        <h2>Cuoca, sarta</h2>
+                        <div id="bio">
+                            <h2 class="bio_title">LA MIA STORIA</h2>
+                            <p class="bio_txt">Magnatem que sim sim quis doloritaturi aute cor sequi con cullenimus re ant que volorest facepres suntum re prestio dolorest facipientium num facil expliquodi corum que comnihiciis modio testrum, utem unt pel ipsapit, voluptat quo to blatibu stinum assim ilitet essectionsed quunt veriore. ndipienti unt ut vollenda qui te nes elitecest aligendenim fugiandis demolut aditatureUlluptatur sum facidenis illorum repelestiur repta conempe.</p>
+                            <h2 class="bio_title">il mio lavoro</h2>
+                            <p class="bio_txt">Dfaus oporterrae audellessimo hoste nox nique nore iam in supio, constidit, quit facies er iam Romner alis? Opicupi ciendamquam ocae milinaturi faceper los ne facientia dio et egeratio hiliam stat Catem omperbi simantu isseri perei perentra, nulerris re prisse noc, Cupicaedium us sus bon dissolto ure cre fures pri imilica etius. Me audepon sinesse nationsultus publissCupere, pri, publinume tessoltiem. Hebunt vis. Igit L. Sena, corum sul hostra.</p>
+                        </div>
+                    </div>
+
+                    <div id="video_canvas" class="off">
+                        <video id="video_profile" controls>
+                            <source src="media/artigiani/KAMRUN/video_sample.mp4" type="video/mp4">
+                            Il tuo browser non supporta questo player.
+                        </video>
+                    </div>
+                </div>
+
+
+                <!-------- ability covers tab ------->
+
+                <div id="covers_tab" class="tab off">
+
+                    <div class="cover_card cuoca sarta bangladesh bolzano">
+                        <a href="kamrun.html">
+                            <div class="cover_img" style="background-image: url(media/artigiani/KAMRUN/cover.jpg)">
+                            </div>
+                            <div class="cover_label off">
+                                <h2>kamrun nahar</h2>
+                                <p class="small_txt">bangladesh</h2>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cover_card orologiaio iran brennero">
+                        <div class="cover_img" style="background-image: url(media/artigiani/AKIF/cover.jpg)"></div>
+                        <div class="cover_label off">
+                            <h2>akif kishiyer</h2>
+                            <p class="small_txt">iran</h2>
+                        </div>
+                    </div>
+
+                    <div class="cover_card sarta venezuela bolzano">
+                        <div class="cover_img" style="background-image: url(media/artigiani/DEBORA/cover.jpg)"></div>
+                        <div class="cover_label off">
+                            <h2>debora rojas</h2>
+                            <p class="small_txt">venezuela</h2>
+                        </div>
+                    </div>
+
+                    <div class="cover_card kenia musicista bolzano">
+                        <div class="cover_img" style="background-image: url(media/artigiani/ELVIS/cover.jpg)"></div>
+                        <div class="cover_label off">
+                            <h2>elvis kakiti</h2>
+                            <p class="small_txt">kenia</h2>
+                        </div>
+                    </div>
+
+                    <div class="cover_card pittrice russia bolzano">
+                        <div class="cover_img" style="background-image: url(media/artigiani/TATIANA/cover.jpg)"></div>
+                        <div class="cover_label off">
+                            <h2>tatiana</h2>
+                            <p class="small_txt">russia</h2>
+                        </div>
+                    </div>
+
+                    <div class="cover_card ballerina decoratrice dominicana bolzano">
+                        <div class="cover_img" style="background-image: url(media/artigiani/RAMONA/cover.jpg)"></div>
+                        <div class="cover_label off">
+                            <h2>ramona rosario</h2>
+                            <p class="small_txt">Rep. dominicana</h2>
+                        </div>
+                    </div>
+
+                    <div class="cover_card decoratrice dominicana bologna">
+                        <div class="cover_img" style="background-image: url(media/artigiani/SANDRA/cover.jpg)"></div>
+                        <div class="cover_label off">
+                            <h2>sandra</h2>
+                            <p class="small_txt">rep. dominicana</h2>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <!-------- project tab ------->
+
+                <div id="project_tab" class="tab off">
+                    <h2>COSA FACCIAMO
+                    </h2>
+                    <h1>Atui publintilis vid aut vercesilius. Quitesticaed aut ret; non te et pra mor hostesil unum, et grae ad cas hore tam horusqua re, quemo norunum publieniri faus oporterrae audellessimo hoste nox nique nore iam in supio, constidit, quit facies er iam Romner alis bon senatum serdit.</h1>
+
+                    <h2>Chi siamo
+                    </h2>
+                    <h1>Aximagna tiamet apeditatis et, nonem que exceriae etur, comnis doloreius sitibus sumquib usciam volorit electo velignihite voloriorepe es am fuga. Iquam que perchil laborumque doluptatibus ut quidis iusam ni de plibus mi, occusda nihiliquam, con pratio est eictae nimusandebit id magnis autemqu iaeperrum quas minulliquia.</h1>
+
+                    <h2>qual è lo scopo
+                    </h2>
+                    <h1>Epedi omni quodi arum la ne pro te cor re eosani cus, vel ipsaecum, ipienia sapictia natis secaeptatet is il in commolu ptatiat ionserum enderiassi dicillo reptat dignisque voluptiatur, ium simusant quiditatatet es ea volupta vit ut ant poreper ibusandunt, sequiassus.</h1>
+                </div>
+
+
+
+                <!-------- story tab ------->
+                <div id="story_tab" class="tab off">
+                    <h2>handy hands 2018
+                    </h2>
+                    <h1>Rum quiat ratectur Quis qui aspe laciendis excea vendipsunt quas paris et omnimil laccati anderro modit, volor as dipient fugit, etur, Ellor rest, utem re voluptate dem non es veles dollessum aut exernation por atur. Sam doluptaquodi cum hari velibus ipsum, tet officabore pre maio. Untur a qui berest ea nullacia ent.</h1>
+
+                    <video id="video_story" width="100%" height="auto" controls>
+                        <source src="media/artigiani/KAMRUN/video_sample.mp4" type="video/mp4">
+                        Il tuo browser non supporta questo player.
+                    </video>
+
+                </div>
+
+
+
+                <!-------- subscribe tab ------->
+                <div id="subscribe_tab" class="tab off">
+
+                    <h1>Se vuoi entrare a far parte del progetto scrivi una mail o contatta l’amministratore negli orari indicati sotto. Atui publintilis vid aut vercesilius. Quitesticaed aut ret; non te et pra mor hostesil unum, et grae ad cas hore tam horusqua re, quemo norunum publieniri faus oporterrae audellessimo hoste nox nique nore iam in supio, constidit, quit facies er iam Romner alis bon senatum serdit.</h1>
+
+                    <a class="big_link" href="mailto:info@handyhands.com">info@handyhands.com</a>
+
+                </div>
+
+
+
+                <!-------- contacts tab ------->
+
+                <div id="contacts_tab" class="tab off">
+                    <h2>ContattI</h2>
+                    <h1>Puoi chiamarci dal Lunedì al venerdì dalle 9 alle 13
+                        ai numeri: 328 64892078 / 0471 8472010, risponderà
+                        Nome Cognome.</h1>
+
+                    <h1>Altrimenti puoi scriverci all’indirizzo
+                        <a class="big_link" href="mailto:info@handyhands.com">info@handyhands.com</a> vi ricontatteremo al più presto.
+                    </h1>
+                </div>
+
+
+
+                <!-------- disclaimer tab ------->
+
+                <div id="disclaimer_tab" class="tab off">
+                    <h2>disclaimer</h2>
+                    <h1>Atui publintilis vid aut vercesilius. Quitesticaed aut ret; non te et pra mor hostesil unum, et grae ad cas hore tam horusqua re, quemo norunum publieniri faus oporterrae audellessimo hoste nox nique nore iam in supio, constidit, quit facies er iam Romner alis bon senatum serdit.</h1>
+                </div>
+
+
+
+                <!-------- supporters tab ------->
+
+                <div id="supporters_tab" class="tab off">
+                    <h2>sostenitori</h2>
+                    <div id="logo_box">
+                        <img class="supp_logo" src="media/loghi/provinciabz_logo.png">
+                    </div>
+                </div>
+
+
+
+                <!-------- credits tab ------->
+
+                <div id="credits_tab" class="tab off">
+                    <h2>PROGETTO</h2>
+                    <a class"small_links">Bla.org</a>
+
+                    <h2>CONCEPT</h2>
+                    <a>Bla.org</a>
+
+                    <h2>PROGRAMMAZIONE</h2>
+                    <a>Bla.org</a>
+
+                    <h2>DESIGN</h2>
+                    <a>Bla.org</a>
+
+                    <h2>AMMINISTRAZIONE</h2>
+                    <a>Bla.org</a>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <!-------- second column ------->
+
+        <div id="showcase_column" class="column">
+            <div class="id_card">
+                <div class="id_img" style="background-image: url(media/artigiani/KAMRUN/ID.jpg)" onclick="window.location='kamrun.html'"></div>
+                <div class="id_info">
+                    <h2>Kamrun Nahar</h2>
+                    <p class="small_txt">
+                        Bangladesh > Bolzano
+                    </p>
+                    <p class="small_txt">
+                        Cuoca, sarta
+                    </p>
+                    <a class="small_txt" href="">&#8594; CV</a>
+                </div>
+            </div>
+            <div class="id_card">
+                <div class="id_img" style="background-image: url(media/artigiani/AKIF/ID.jpg)"></div>
+                <div class="id_info">
+                    <h2>akif kishiyer</h2>
+                    <p class="small_txt">
+                        Iran > Brennero
+                    </p>
+                    <p class="small_txt">
+                        Orologiaio
+                    </p>
+                    <a class="small_txt" href="">&#8594; CV</a>
+                </div>
+            </div>
+            <div class="id_card">
+                <div class="id_img" style="background-image: url(media/artigiani/DEBORA/ID.jpg)"></div>
+                <div class="id_info">
+                    <h2>debora rojas</h2>
+                    <p class="small_txt">
+                        Venezuela > Bolzano
+                    </p>
+                    <p class="small_txt">
+                        Sarta
+                    </p>
+                    <a class="small_txt" href="">&#8594; CV</a>
+                </div>
+            </div>
+            <div class="id_card">
+                <div class="id_img" style="background-image: url(media/artigiani/ELVIS/ID.jpg)"></div>
+                <div class="id_info">
+                    <h2>elvis kakiti</h2>
+                    <p class="small_txt">
+                        Kenia > Bolzano
+                    </p>
+                    <p class="small_txt">
+                        Musicista
+                    </p>
+                    <a class="small_txt" href="">&#8594; CV</a>
+                </div>
+            </div>
+            <div class="id_card">
+                <div class="id_img" style="background-image: url(media/artigiani/TATIANA/ID.jpg)"></div>
+                <div class="id_info">
+                    <h2>tatiana</h2>
+                    <p class="small_txt">
+                        Russia > Bolzano
+                    </p>
+                    <p class="small_txt">
+                        Pittrice
+                    </p>
+                    <a class="small_txt" href="">&#8594; CV</a>
+                </div>
+            </div>
+            <div class="id_card">
+                <div class="id_img" style="background-image: url(media/artigiani/RAMONA/ID.jpg)"></div>
+                <div class="id_info">
+                    <h2>ramona rosario</h2>
+                    <p class="small_txt">
+                        Rep. Dominicana > Bolzano
+                    </p>
+                    <p class="small_txt">
+                        Ballerina, decoratrice
+                    </p>
+                    <a class="small_txt" href="">&#8594; CV</a>
+                </div>
+            </div>
+            <div class="id_card">
+                <div class="id_img" style="background-image: url(media/artigiani/SANDRA/ID.jpg)"></div>
+                <div class="id_info">
+                    <h2>sandra</h2>
+                    <p class="small_txt">
+                        Rep. Dominicana > Bologna
+                    </p>
+                    <p class="small_txt">
+                        Decoratrice
+                    </p>
+                    <a class="small_txt" href="">&#8594; CV</a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-------- third column ------->
+
+        <div id="search_column" class="column">
+            <h1 class="language_switch">De</h1>
+            <div id="search_container">
+                <h2>abilità</h2>
+                <div class="custom-select ability_filter">
+                    <select>
+                        <option value="0">&nbsp;</option>
+                        <option value="1">Musicista</option>
+                        <option value="2">Orologiaio</option>
+                        <option value="2">Cuoca</option>
+                        <option value="3">Ballerina</option>
+                        <option value="4">Decoratrice</option>
+                        <option value="5">Pittrice</option>
+                        <option value="6">Sarta</option>
+                        <option value="7">Tutte</option>
+                    </select>
+                </div>
+                <h2>provenienza</h2>
+                <div class="custom-select origin_filter">
+                    <select>
+                        <option value="0">&nbsp;</option>
+                        <option value="1">Bangladesh</option>
+                        <option value="2">Iran</option>
+                        <option value="2">Venezuela</option>
+                        <option value="3">Kenia</option>
+                        <option value="4">Rep. Dominicana</option>
+                        <option value="5">Russia</option>
+                        <option value="6">Tutte</option>
+                    </select>
+                </div>
+                <h2>città</h2>
+                <div class="custom-select city_filter">
+                    <select>
+                        <option value="0">&nbsp;</option>
+                        <option value="1">Bolzano</option>
+                        <option value="2">Bologna</option>
+                        <option value="3">Brennero</option>
+                        <option value="6">Tutte</option>
+
+                    </select>
+                </div>
+                <h2 id="search_button">CERCA →</h2>
+            </div>
+
+            <div id="bottom_links">
+                <div id="contacts_button" class="small_links">Contatti</div>
+                <div id="disclaimer_button" class="small_links">Responsabilità</div>
+                <div id="supporters_button" class="small_links">Sostenitori</div>
+                <div id="credits_button" class="small_links">Credits</div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
