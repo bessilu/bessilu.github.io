@@ -1,17 +1,23 @@
-$(document).ready(function() {
-    $('#covers_tab').load('../pages/ability.html');
-    $('#profile_tab').load('../pages/kamrun.html');
-    $('#covers_tab').hide();
-    
-    
-    $(".slider_button").click(function () {
-        $(".slide").toggleClass("hide");
-    });
-    
-    $("#video_trigger").click(function () {
-        $("#video_canvas").toggleClass("off").toggleClass("on");
-    });
-    $("#video_canvas").click(function () {
-        $("#video_canvas").toggleClass("off").toggleClass("on");
-    });
-});
+  $(document).ready(function () {
+      $("#viewport_box").load("/pages/ability.html");
+
+  });
+
+
+  jQuery(document).ajaxComplete(function () {
+
+      $("#ability_button").click(function () {
+          $("#viewport_box").html("");
+          $("#viewport_box").load("/pages/ability.html");
+      });
+      
+      
+
+      $(".cover_card").click(function () {
+          $("#viewport_box").html("");
+          var classStr = $(this).attr('class'),
+              lastClass = classStr.substr(classStr.lastIndexOf(' ') + 1);
+          $("#viewport_box").load("/pages/" + lastClass + ".html");
+      });
+
+  });

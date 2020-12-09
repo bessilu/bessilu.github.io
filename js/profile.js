@@ -1,4 +1,4 @@
-$(document).ready(function() {
+  jQuery(document).ajaxComplete(function () {
     $(".slider_button").click(function () {
         $(".slide").toggleClass("hide");
     });
