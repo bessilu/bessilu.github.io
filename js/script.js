@@ -125,14 +125,8 @@ $(document).ready(function () {
 
 
 
-// tabs buttons script!!!!!!!!!!!!!!
+// open showcase script!!!!!!!!!!!!!!
 
-$(document).ready(function () {
-
-
-
-
-});
 
 
 // profile script!!!!!!!!! ---> slider + video 

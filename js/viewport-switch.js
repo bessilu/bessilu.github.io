@@ -73,7 +73,7 @@
 
 
 
-      $(".cover_card").click(function () {
+      $(".cover_card, .id_img").click(function () {
           $("#viewport_box").html("");
           $(".menu_button").removeClass("active");
           $("#ability_button").addClass("active");
@@ -81,5 +81,6 @@
               lastClass = classStr.substr(classStr.lastIndexOf(' ') + 1);
           $("#viewport_box").load("/pages/" + lastClass + ".html");
       });
+
 
   });
